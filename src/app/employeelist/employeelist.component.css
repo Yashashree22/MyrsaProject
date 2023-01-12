@@ -1,0 +1,19 @@
+table , td {
+  border: 2px solid rgb(19, 209, 219);
+  padding: 10px;
+
+}
+button
+{
+  background-color:  rgb(5, 95, 122);
+  color: aliceblue;
+
+}
+h2{
+  color: navy;
+}
+table , tr , th{
+  color: navy;
+  padding: 10px;
+  background-color: cornsilk;
+}

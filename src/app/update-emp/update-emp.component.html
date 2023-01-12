@@ -1,0 +1,13 @@
+<p>Update-Employee Details!</p>
+<form [formGroup]="updateAPIForm" (ngSubmit)="submitForm()">
+  <div>
+    <input type="text" formControlName="nm" placeholder="Enter Employee Name">
+  </div> <br>
+  <div>
+    <input type="number" formControlName="mobile" placeholder="Enter Employee mobile no">
+  </div> <br>
+  <div>
+    <input type="text" formControlName="addr" placeholder="Enter Employee Address">
+  </div> <br>
+  <button>Submit</button>
+</form>

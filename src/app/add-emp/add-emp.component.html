@@ -1,0 +1,16 @@
+<p>ADD NEW EMPLOYEE DATA!</p>
+<form [formGroup]="addAPIForm" (ngSubmit)="submitForm()">
+  <div>
+    <input type="number" formControlName="id" placeholder="Enter Emp_Id">
+  </div> <br>
+  <div>
+    <input type="text" formControlName="nm" placeholder="Enter Emp_Name">
+  </div> <br>
+  <div>
+    <input type="number" formControlName="mobile" placeholder="Enter Mobile_no">
+  </div> <br>
+  <div>
+    <input type="text" formControlName="addr" placeholder="Enter Emp_Address">
+  </div> <br>
+  <button>Submit</button>
+</form>

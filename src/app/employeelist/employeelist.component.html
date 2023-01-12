@@ -1,0 +1,21 @@
+<!-- <p>employeelist works!</p>
+-->
+<h2>Employee List </h2>
+<table>
+  <tr>
+    <th>Emp_Id</th>
+    <th>Emp_Name</th>
+    <th>Moblie No</th>
+    <th>Address</th>
+  </tr>
+  <tr *ngFor="let mdata of EmployeeData">
+    <td>{{mdata.Emp_id}}</td>
+    <td>{{mdata.Emp_name}}</td>
+    <td>{{mdata.Mobile_no}}</td>
+    <td>{{mdata.Address}}</td>
+    <td><button (click)="edit(mdata.Emp_id)">edit</button></td>
+    <td><button (click)="delData(mdata.Emp_id)" >delete</button></td>
+  </tr>
+</table>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,24 @@
+*{
+  margin: 0%;
+  /* padding: 0%; */
+}
+
+form
+{
+  border: 2px solid black;
+  text-align: center;
+  font-size: 18px;
+  background:linear-gradient(rgb(167, 167, 220),rgb(96, 96, 215),rgb(158, 158, 211));
+
+}
+p
+{
+  text-align: center;
+  font-size: 18px;
+  color: navy;
+  background-color: lightblue;
+}
+button{
+  size: 20px;
+  background-color: cornsilk;
+}
